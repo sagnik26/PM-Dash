@@ -1,5 +1,3 @@
-import React from "react";
-
 const teamMembers = [
   { name: "Andrea", role: "UX Junior" },
   { name: "Alvaro", role: "Back-end Developer" },
