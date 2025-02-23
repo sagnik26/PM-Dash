@@ -128,7 +128,7 @@ const BudgetStatus = () => {
               padding: "15px",
               borderRadius: "8px",
               textAlign: "left",
-              borderBottom: `5px solid ${project.statusColor}`,
+              // borderBottom: `5px solid ${project.statusColor}`,
             }}
           >
             <h3 style={{ margin: "0", fontSize: "1.5rem" }}>{project.name}</h3>
@@ -181,6 +181,16 @@ const BudgetStatus = () => {
                 </p>
               </div>
             </div>
+
+            <div
+              style={{
+                backgroundColor: project.statusColor,
+                height: "12px",
+                width: "100%",
+                margin: "10px 0px",
+                borderRadius: 10,
+              }}
+            ></div>
 
             <div
               style={{

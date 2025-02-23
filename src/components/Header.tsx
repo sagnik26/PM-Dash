@@ -6,7 +6,7 @@ const Header = () => {
         justifyContent: "space-between",
         alignItems: "center",
         background: "#20232a",
-        padding: "10px 20px",
+        padding: "20px 20px",
         color: "white",
       }}
     >
@@ -28,7 +28,37 @@ const Header = () => {
           )
         )}
       </nav>
-      <div>Mario</div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            width: "30px",
+            height: "30px",
+            borderRadius: "50%",
+            backgroundColor: "#ccc",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: "16px",
+            fontWeight: "bold",
+            color: "#fff",
+            textTransform: "uppercase",
+          }}
+        >
+          {"M"}
+        </div>
+        <h3
+          style={{
+            marginLeft: 10,
+          }}
+        >
+          Mario
+        </h3>
+      </div>
     </div>
   );
 };
